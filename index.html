@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Freecycle push notifications</title>
+    <link rel="manifest" href="/manifest.json" />
+    <script
+      src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"
+      async=""
+    ></script>
+    <script>
+      var OneSignal = window.OneSignal || [];
+      OneSignal.push(function() {
+        OneSignal.init({
+          appId: "28c39d18-7ede-474f-9f6e-e337d6740257"
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Allow freecycle to push notifications when there are new posts</h1>
+  </body>
+</html>
